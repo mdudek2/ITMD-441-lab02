@@ -20,22 +20,24 @@
   flex-direction: row;
   justify-content: flex-center;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #flex-section2 li {
-
+  flex: 1;
 }
 
 #flex-section2 .item1 {
-
+  order: 1;
 }
 
 #flex-section2 .item2 {
-
+  order: 3;
 }
 
 #flex-section2 .item3 {
-
+  order: 2;
 }
 
 /* end Flexbox Part 2 */
