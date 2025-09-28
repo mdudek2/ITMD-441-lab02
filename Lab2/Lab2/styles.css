@@ -132,18 +132,16 @@
 #transition-section .box a {
 	display: inline-block;
 	background-color: #ccc;
-	color: #000;
+    color: #000;
 	padding: 20px;
 	text-decoration: none;
-
-
+	transition: background-color 3s ease-in, color 3s ease-in;
 }
 
 #transition-section .box a:hover {
 	background-color: #cc0000;
-	color: #fff;
-
-
+    color: #fff;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 
 /* end Transition Part */
